@@ -1,0 +1,42 @@
+{{name|upper}}
+<br/>
+{{name|lower}}
+<br/>
+{{name|title}}
+<br/>
+{{name|truncatechars:3}}
+<br/>
+{% comment %} {{name|truncatechars:3}} {% endcomment %}
+<br/>
+{{name|capfirst}}
+<br/>
+<pre>{{name|center:"15"}}</pre>
+
+<pre>{{name|ljust:"15"}}</pre>
+
+<pre>{{name|rjust:"15"}}</pre>
+
+<pre>{{name|cut:"o"}}</pre>
+
+{{name|random}}
+
+
+<!-- ======================For loop======================/ -->
+
+
+<!-- {%  for i in data %} -->
+        <!-- {{i}} <br/> -->
+    <!-- {{forloop.counter}}  {{i}} -->
+    <!-- <br/> -->
+
+        <!-- {% endfor %} -->
+
+<!-- ====================if else======================-->
+
+{% if data %}
+        <button>logout</button>
+{% else %}
+        <button>registration</button>
+        <button>login</button>
+
+{% endif %}
